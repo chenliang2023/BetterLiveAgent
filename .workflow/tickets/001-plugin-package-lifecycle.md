@@ -1,4 +1,4 @@
-<!-- status: todo -->
+<!-- status: dispatched host:local agent:gpt56-sol worktree:.worktrees/001-plugin-package-lifecycle branch:ticket/001-plugin-package-lifecycle at:2026-09-28T15:25:14+08:00 -->
 <!-- route:
  phase: execution
  local: gpt56-sol
