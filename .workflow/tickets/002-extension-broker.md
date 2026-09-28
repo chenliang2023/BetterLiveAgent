@@ -1,4 +1,4 @@
-<!-- status: dispatched host:local agent:gpt56-sol worktree:.worktrees/002-extension-broker branch:ticket/002-extension-broker at:2026-09-28T12:35:53+08:00 -->
+<!-- status: todo -->
 <!-- route:
  phase: execution
  local: gpt56-sol
