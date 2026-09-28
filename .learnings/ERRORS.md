@@ -132,6 +132,29 @@ Expecting ',' delimiter: line 54 column 42 (char 1171)
 
 ---
 
+## [ERR-20260928-010] git-ui-safe-directory
+
+**Logged**: 2026-09-28
+**Priority**: high
+**Status**: pending
+**Area**: infra
+
+### Summary
+The Git UI reports that no repository exists because Git rejects the repository as dubious ownership.
+
+### Error
+```
+fatal: detected dubious ownership in repository at 'C:/Users/Windows/Desktop/Task/ongoing/BetterLiveAgent'
+```
+
+### Context
+- The repository contains `.git` and works when Git is invoked with an exact `safe.directory` override.
+- The repository owner is `BUILTIN\\Administrators`, while the current user SID differs.
+- The UI likely invokes Git without the required safe-directory exception.
+- Do not run Initialize Repository; add the exact repository path to Git's safe.directory configuration only after user approval.
+
+---
+
 ## [ERR-20260928-007] memory_list_limit
 
 **Logged**: 2026-09-28
