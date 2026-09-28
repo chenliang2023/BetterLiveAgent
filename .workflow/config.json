@@ -1,0 +1,11 @@
+{
+  "tickets_dir": ".workflow/tickets",
+  "research_dir": ".workflow/research",
+  "specs_dir": ".workflow/specs",
+  "handoffs_dir": ".workflow/handoffs",
+  "version_dir": ".workflow/version",
+  "bugs_dir": ".workflow/bugs",
+  "archive_dir": ".workflow/version/archive",
+  "worktree_dir": ".worktrees",
+  "branch_template": "ticket/<id>-<slug>"
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "agents": [
+    {
+      "id": "gpt56-luna",
+      "display_name": "GPT-5.6 Luna",
+      "harness": "codex",
+      "model": "gpt-5.6 luna",
+      "host": "local",
+      "strength": "high",
+      "speed": "fast",
+      "tags": [
+        "architecture",
+        "backend",
+        "frontend",
+        "research",
+        "test",
+        "docs",
+        "refactor"
+      ],
+      "description": "主力 agent，优先用于高频的常规与复杂工作"
+    },
+    {
+      "id": "gpt56-sol",
+      "display_name": "GPT-5.6 Sol",
+      "harness": "codex",
+      "model": "gpt-5.6 sol",
+      "host": "local",
+      "strength": "high",
+      "speed": "slow",
+      "tags": [
+        "architecture",
+        "security",
+        "debugging",
+        "refactor",
+        "backend"
+      ],
+      "description": "能力强但成本较高，保留给关键、复杂和高风险任务"
+    },
+    {
+      "id": "antigravity",
+      "display_name": "Antigravity",
+      "harness": "antigravity",
+      "model": "gemini",
+      "host": "local",
+      "strength": "medium",
+      "speed": "fast",
+      "tags": [
+        "frontend",
+        "ui",
+        "styling",
+        "interaction"
+      ],
+      "description": "本机上的前端与 UI agent"
+    }
+  ]
+}
